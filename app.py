@@ -28,6 +28,13 @@ UI_STRINGS = {
     "about_title": {"id": "Profil Singkat", "en": "Quick Profile"},
     "experience_eyebrow": {"id": "Perjalanan", "en": "Journey"},
     "experience_title": {"id": "Pengalaman", "en": "Experience"},
+    "view_content": {"id": "Lihat Portofolio Konten", "en": "View Content Portfolio"},
+    "content_title": {"id": "Portofolio Konten", "en": "Content Portfolio"},
+    "content_intro": {"id": "Beberapa konten pilihan yang aku kerjakan untuk Biro Karir. Klik kartu untuk menontonnya.", "en": "A selection of content I worked on for the Career Bureau. Click a card to watch it."},
+    "content_my_role": {"id": "Peranku", "en": "My role"},
+    "content_watch": {"id": "Tonton", "en": "Watch"},
+    "content_view_ig": {"id": "Lihat Akun Instagram", "en": "View Instagram Account"},
+    "content_featured": {"id": "Tayang di acara wisuda UMB", "en": "Shown at the UMB graduation ceremony"},
     "organizations_eyebrow": {"id": "Keterlibatan", "en": "Involvement"},
     "organizations_title": {"id": "Organisasi & Event", "en": "Organizations & Events"},
     "organizations_sub": {"id": "Organisasi", "en": "Organizations"},
@@ -70,7 +77,7 @@ PROFILE = {
     "email": "khairunnisaramadhan547@gmail.com",
     "github": "https://github.com/nisaica1910",
     "linkedin": "https://www.linkedin.com/in/khairunnisa-ramadhan/",
-    "cv_link": "https://drive.google.com/file/d/1o5x_vyg9LOHfcvggZN8G2vAhtnIiLKgM/view?usp=sharing",
+    "cv_link": "https://drive.google.com/file/d/1Zizp7HFeeqwhudoAJ57tBiu4JC8Nr0yy/view?usp=sharing",
     "stats": [
         {"value": "3.85/4.0", "label": {"id": "GPA", "en": "GPA"}},
         {"value": "5+", "label": {"id": "Pengalaman Kerja", "en": "Work Experience"}},
@@ -119,29 +126,77 @@ SKILLS = {
     },
 }
 
+ROLE_LABELS = {
+    "talent": {"id": "Talent", "en": "Talent"},
+    "concept": {"id": "Konsep Video", "en": "Video Concept"},
+    "script": {"id": "Script Writer", "en": "Scriptwriter"},
+    "editor": {"id": "Editor", "en": "Editor"},
+    "director": {"id": "Pengarah Video", "en": "Video Director"},
+    "shooting": {"id": "Pengambilan Video", "en": "Videographer"},
+}
+
 EXPERIENCES = [
     {
-        "role": "Surveyor Data Analyst",
+            "role": "Surveyor Data Analyst",
+            "org": "Biro Karir, Hubungan dan Penelusuran Alumni — Universitas Mercu Buana",
+            "logo": "logo-umb.jpg",
+            "period": {"id": "Nov 2025 — Apr 2026", "en": "Nov 2025 — Apr 2026"},
+            "tagline": {
+                "id": "Mengubah respons survei menjadi data alumni yang andal.",
+                "en": "Turning survey responses into reliable alumni data.",
+            },
+            "points": {
+                "id": [
+                    "Mengumpulkan data **tracer study alumni** melalui **survei terstruktur** untuk laporan pelacakan alumni universitas.",
+                    "**Memverifikasi, membersihkan, dan merapikan** data survei agar tetap **lengkap dan akurat**.",
+                    "**Menganalisis data ketenagakerjaan alumni**, merangkum temuan untuk pelaporan institusi, dan berkoordinasi dengan responden untuk meningkatkan **tingkat respons**.",
+                ],
+                "en": [
+                    "Collected **alumni tracer study** data through **structured surveys** for the university's alumni tracking reports.",
+                    "**Verified, cleaned, and organized** survey data to keep it **complete and accurate**.",
+                    "**Analyzed alumni employment data**, summarized findings for institutional reporting, and coordinated with respondents to improve **response rates**.",
+                ],
+            },
+            "tags": ["Data Analysis", "Microsoft Excel", "Survey"],
+        },
+        {
+        "role": "Content Creator",
         "org": "Biro Karir, Hubungan dan Penelusuran Alumni — Universitas Mercu Buana",
-        "logo": "logo-umb.jpg",
-        "period": {"id": "Nov 2025 — Apr 2026", "en": "Nov 2025 — Apr 2026"},
+        "logo": "logo-umb.jpg",  # samakan dengan logo di kartu Surveyor Data Analyst
+        "period": {"id": "Sep 2025 — Sep 2026", "en": "Sep 2025 — Sep 2026"},
         "tagline": {
-            "id": "Mengubah respons survei menjadi data alumni yang andal.",
-            "en": "Turning survey responses into reliable alumni data.",
+            "id": "Dari ide dan script sampai tayang, satu konten dikerjakan dari awal sampai akhir.",
+            "en": "From idea and script to publish, owning each piece of content end to end.",
         },
         "points": {
             "id": [
-                "Mengumpulkan data **tracer study alumni** melalui **survei terstruktur** untuk laporan pelacakan alumni universitas.",
-                "**Memverifikasi, membersihkan, dan merapikan** data survei agar tetap **lengkap dan akurat**.",
-                "**Menganalisis data ketenagakerjaan alumni**, merangkum temuan untuk pelaporan institusi, dan berkoordinasi dengan responden untuk meningkatkan **tingkat respons**.",
+                "Membuat **konten video dan reels** untuk Biro Karir, mulai dari **konsep, penulisan script, pengambilan video, hingga editing** memakai **Canva** dan **CapCut**.",
+                "Berperan sebagai **talent**, **script writer**, **editor**, dan **pengarah video** di berbagai konten, termasuk satu video yang **ditayangkan di acara wisuda Universitas Mercu Buana**.",
+                "Menulis **caption** dan membuat **live report** kegiatan Biro Karir untuk publikasi di Instagram.",
             ],
             "en": [
-                "Collected **alumni tracer study** data through **structured surveys** for the university's alumni tracking reports.",
-                "**Verified, cleaned, and organized** survey data to keep it **complete and accurate**.",
-                "**Analyzed alumni employment data**, summarized findings for institutional reporting, and coordinated with respondents to improve **response rates**.",
+                "Produced **video and reels content** for the Career Bureau, from **concept, scriptwriting, and filming to editing** using **Canva** and **CapCut**.",
+                "Took on roles as **talent**, **scriptwriter**, **editor**, and **video director** across different pieces, including a video **shown at the Universitas Mercu Buana graduation ceremony**.",
+                "Wrote **captions** and produced **live reports** of Career Bureau activities for Instagram.",
             ],
         },
-        "tags": ["Data Analysis", "Microsoft Excel", "Survey"],
+        "tags": ["Content Creation", "Video Editing", "Scriptwriting", "Canva", "CapCut"],
+        "content": {
+            "instagram": "https://www.instagram.com/kariralumni.umb/",
+            "entries": [
+                {"platform": "youtube", "url": "https://youtu.be/J2JBFbqfzrU", "youtube_id": "J2JBFbqfzrU",
+                 "thumb": "img/youtube-cover.jpg",
+                 "title": {"id": "Video untuk Acara Wisuda UMB", "en": "Video for the UMB Graduation Ceremony"},
+                 "featured": True, "roles": ["talent", "concept", "script", "editor"]},
+                {"platform": "instagram", "url": "https://www.instagram.com/reel/DbKJGlip2tX/", "thumb": "img/reel-1.jpg", "roles": ["script", "director"]},
+                {"platform": "instagram", "url": "https://www.instagram.com/reel/DbC06EcJTS3/", "thumb": "img/reel-2.jpg", "roles": ["talent", "concept"]},
+                {"platform": "instagram", "url": "https://www.instagram.com/reel/DYYq-4pp01x/", "thumb": "img/reel-3.jpg", "roles": ["editor", "concept"]},
+                {"platform": "instagram", "url": "https://www.instagram.com/reel/DYYZIGCpCsp/", "thumb": "img/reel-4.jpg", "roles": ["shooting", "editor", "concept"]},
+                {"platform": "instagram", "url": "https://www.instagram.com/reel/DXqHLeOiT3j/", "thumb": "img/reel-5.jpg", "roles": ["talent", "script", "editor"]},
+                {"platform": "instagram", "url": "https://www.instagram.com/reel/DW5LezdCZb9/", "thumb": "img/reel-6.jpg", "roles": ["talent", "script", "editor"]},
+                {"platform": "instagram", "url": "https://www.instagram.com/reel/DWnlq-0CY9g/", "thumb": "img/reel-7.jpg", "roles": ["concept", "editor"]},
+            ],
+        },
     },
     {
         "role": "Fullstack Developer",
@@ -599,6 +654,50 @@ PROJECTS = [
         "github": "https://github.com/nisaica1910/Memora-Chatbot.git",  # ganti link repo asli
         "demo": "",
     },
+        {
+        "title": "MamiNa — Website Bimbel Mewarnai & Menggambar",
+        "description": {
+            "id": "Website bimbel mewarnai dan menggambar anak dengan pendaftaran online, dashboard admin, dan galeri karya anak.",
+            "en": "Website for a children's coloring and drawing class, with online registration, an admin dashboard, and a gallery of kids' artwork.",
+        },
+        "purpose": {
+            "id": "Dibangun sebagai **website bisnis** untuk bimbel mewarnai dan menggambar anak: calon murid bisa **melihat kelas dan mendaftar online**, sementara pemilik mengelola **pendaftar, murid, absensi, dan pembayaran** lewat **dashboard admin**.",
+            "en": "Built as a **business website** for a children's coloring and drawing class: prospective students can **browse classes and register online**, while the owner manages **registrations, students, attendance, and payments** through an **admin dashboard**.",
+        },
+        "features": {
+            "id": [
+                "**Landing page ramah anak** dengan desain pastel yang ceria dan navigasi sederhana (Kelas, Karya anak, Lokasi, Daftar, Admin).",
+                "**Katalog 3 kelas** (Mewarnai Basic, Mewarnai Lanjutan, Menggambar) lengkap dengan harga per jam, durasi, jadwal, dan **sisa kursi yang diperbarui otomatis**.",
+                "**Formulir pendaftaran online** berisi data anak dan kontak orang tua, dengan alur bergabung 3 langkah: isi formulir, dikonfirmasi via WhatsApp, lalu mulai mewarnai.",
+                "**Integrasi WhatsApp**: tombol *Tanya lewat WhatsApp* yang selalu tampil dan tombol *Chat WhatsApp* untuk konfirmasi jadwal.",
+                "**Dashboard admin** dengan ringkasan bulanan (pendaftar baru, murid aktif, tunggakan, pembayaran masuk) dan **kuota tiap kelas**.",
+                "**Manajemen operasional** lewat menu Pendaftar, Murid, Kelas, Absensi, Pembayaran, dan Karya, serta login admin.",
+                "**Galeri karya anak** untuk memajang hasil karya murid.",
+                "**Peta lokasi** studio yang terhubung dengan Google Maps.",
+                "Dirancang dan dibangun sendiri, dari **desain UI, frontend, backend, hingga database**.",
+            ],
+            "en": [
+                "**Kid-friendly landing page** with a cheerful pastel design and simple navigation (Classes, Kids' Work, Location, Register, Admin).",
+                "**Catalog of 3 classes** (Basic Coloring, Advanced Coloring, Drawing) with hourly price, duration, schedule, and **automatically updated seat availability**.",
+                "**Online registration form** for the child's details and parent contact, with a 3-step joining flow: fill in the form, get confirmed via WhatsApp, then start coloring.",
+                "**WhatsApp integration**: an always-visible *Ask via WhatsApp* button and a *Chat WhatsApp* button for schedule confirmation.",
+                "**Admin dashboard** with a monthly summary (new registrations, active students, unpaid this month, payments received) and **per-class quota**.",
+                "**Operational management** through Registrants, Students, Classes, Attendance, Payments, and Artwork menus, plus admin login.",
+                "**Kids' artwork gallery** to proudly showcase student work.",
+                "**Location map** of the studio embedded with Google Maps.",
+                "Designed and built end to end, from **UI design and frontend to backend and database**.",
+            ],
+        },
+        "tech": ["Python", "Flask", "HTML/CSS", "JavaScript", "Google Maps"],
+        "images": [
+            {"src": "mamina-1.jpg", "caption": {"id": "Halaman utama MamiNa", "en": "MamiNa landing page"}},
+            {"src": "mamina-2.jpg", "caption": {"id": "Pilihan kelas dan cara bergabung", "en": "Class options and how to join"}},
+            {"src": "mamina-3.jpg", "caption": {"id": "Lokasi studio dan kontak WhatsApp", "en": "Studio location and WhatsApp contact"}},
+            {"src": "mamina-4.jpg", "caption": {"id": "Dashboard admin", "en": "Admin dashboard"}},
+        ],
+        "github": "https://github.com/nisaica1910/MamiNa-Bimbel-Website.git",
+        "demo": "",
+    },
 ]
 
 CERTIFICATES = [
@@ -651,6 +750,7 @@ def home():
         events=[o for o in all_items if "Event" in o["tags"]],
         projects=_resolve(PROJECTS, lang),
         certificates=_resolve(CERTIFICATES, lang),
+        roles=_resolve(ROLE_LABELS, lang),
     )
 
 if __name__ == "__main__":
