@@ -77,7 +77,7 @@ PROFILE = {
     "email": "khairunnisaramadhan547@gmail.com",
     "github": "https://github.com/nisaica1910",
     "linkedin": "https://www.linkedin.com/in/khairunnisa-ramadhan/",
-    "cv_link": "https://drive.google.com/file/d/1Zizp7HFeeqwhudoAJ57tBiu4JC8Nr0yy/view?usp=sharing",
+    "cv_link": "https://drive.google.com/file/d/1KSMbXZY-GPC6BfX87b_sEsZIGlSbT1uR/view?usp=sharing",
     "stats": [
         {"value": "3.85/4.0", "label": {"id": "GPA", "en": "GPA"}},
         {"value": "5+", "label": {"id": "Pengalaman Kerja", "en": "Work Experience"}},
