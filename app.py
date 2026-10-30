@@ -221,6 +221,29 @@ EXPERIENCES = [
         },
         "tags": ["React.js", "Next.js", "Laravel", "MySQL"],
     },
+       {
+            "role": "Database Administrator Intern",
+            "org": "Data and Information Center, Ministry of Energy and Mineral Resources",
+            "logo": "logo-esdm.png",
+            "period": {"id": "Feb 2025 — Mar 2025", "en": "Feb 2025 — Mar 2025"},
+            "tagline": {
+                "id": "Memastikan database aplikasi memenuhi standar.",
+                "en": "Making sure application databases meet the standard.",
+            },
+            "points": {
+                "id": [
+                    "Membantu tim IT **meninjau database aplikasi** yang diajukan oleh unit-unit di Kementerian.",
+                    "**Memverifikasi kelengkapan dokumen** dan **kepatuhan terhadap standar database**.",
+                    "Merapikan informasi database untuk proses evaluasi dan **mendokumentasikan temuan review** untuk tim IT.",
+                ],
+                "en": [
+                    "Assisted the IT team in **reviewing application databases** submitted by units within the Ministry.",
+                    "**Verified document completeness** and **compliance with database standards**.",
+                    "Organized database information for the evaluation process and **documented review findings** for the IT team.",
+                ],
+            },
+            "tags": ["Database", "MySQL", "Documentation"],
+        },
     {
         "role": "Project Leader",
         "org": "RevoU — Cloud and Gen AI Machine Learning Program",
@@ -244,30 +267,7 @@ EXPERIENCES = [
         },
         "tags": ["AWS", "Machine Learning", "Leadership"],
     },
-    {
-        "role": "Database Administrator Intern",
-        "org": "Data and Information Center, Ministry of Energy and Mineral Resources",
-        "logo": "logo-esdm.png",
-        "period": {"id": "Feb 2024 — Mar 2024", "en": "Feb 2024 — Mar 2024"},
-        "tagline": {
-            "id": "Memastikan database aplikasi memenuhi standar.",
-            "en": "Making sure application databases meet the standard.",
-        },
-        "points": {
-            "id": [
-                "Membantu tim IT **meninjau database aplikasi** yang diajukan oleh unit-unit di Kementerian.",
-                "**Memverifikasi kelengkapan dokumen** dan **kepatuhan terhadap standar database**.",
-                "Merapikan informasi database untuk proses evaluasi dan **mendokumentasikan temuan review** untuk tim IT.",
-            ],
-            "en": [
-                "Assisted the IT team in **reviewing application databases** submitted by units within the Ministry.",
-                "**Verified document completeness** and **compliance with database standards**.",
-                "Organized database information for the evaluation process and **documented review findings** for the IT team.",
-            ],
-        },
-        "tags": ["Database", "MySQL", "Documentation"],
-    },
-    {
+{
         "role": "System Developer (Remote)",
         "org": "MI At-Taubah — SIDOEL Project",
         "logo": "logo-attaubah.jpeg",
@@ -287,6 +287,27 @@ EXPERIENCES = [
             ],
         },
         "tags": ["Web Development", "PHP"],
+    },
+        {
+        "role": "Management Intern",
+        "org": "PT APLUS PACIFIC",
+        "logo": "logo-aplus.png",
+        "period": {"id": "Apr 2024 — Mei 2024", "en": "Apr 2024 — May 2024"},
+        "tagline": {
+            "id": "Belajar langsung bagaimana operasional perusahaan berjalan di lapangan.",
+            "en": "Learning first-hand how company operations run on site.",
+        },
+        "points": {
+            "id": [
+                "Magang di bidang **manajemen dan operasional** secara **langsung di lokasi** perusahaan di Jakarta Barat.",
+                "Mendukung **kegiatan operasional harian** dan belajar **alur kerja serta koordinasi antartim**.",
+            ],
+            "en": [
+                "Interned in **management and operations**, working **on site** at the company's office in West Jakarta.",
+                "Supported **day-to-day operations** and learned **workflows and cross-team coordination**.",
+            ],
+        },
+        "tags": ["Onsite Management", "Operations Management"],
     },
 ]
 
@@ -697,6 +718,52 @@ PROJECTS = [
         ],
         "github": "https://github.com/nisaica1910/MamiNa-Bimbel-Website.git",
         "demo": "",
+    },
+        {
+        "title": "A STUDIO — Website Company Profile",
+        "description": {
+            "id": "Website company profile untuk studio desain dan kontraktor interior, lengkap dengan portofolio proyek dan dashboard admin untuk mengelola konten.",
+            "en": "A company profile website for an interior design and contractor studio, with a project portfolio and an admin dashboard for managing content.",
+        },
+        "purpose": {
+            "id": "Dibangun sebagai **website company profile** untuk studio desain dan kontraktor interior: calon klien bisa **melihat layanan dan proyek pilihan** lalu **menghubungi lewat konsultasi gratis atau WhatsApp**, sementara admin mengelola **proyek, kategori, dan pesan masuk** lewat **dashboard admin** tanpa mengubah kode.",
+            "en": "Built as a **company profile website** for an interior design and contractor studio: prospective clients can **browse services and featured projects** and **get in touch through a free consultation or WhatsApp**, while the admin manages **projects, categories, and incoming messages** through an **admin dashboard** without touching the code.",
+        },
+        "features": {
+            "id": [
+                "**Landing page profesional** dengan hero, bagian Tentang Kami, Layanan, Proyek pilihan, dan Proses Kerja dari konsultasi hingga serah terima.",
+                "**Etalase portofolio proyek** yang dikelompokkan per kategori (Interior Rumah dan Interior Kantor), dengan halaman daftar semua proyek.",
+                "**Tombol WhatsApp** yang selalu tampil dan tombol *Konsultasi Gratis* di setiap halaman untuk memudahkan calon klien menghubungi.",
+                "**Dashboard admin** dengan ringkasan total proyek, proyek tayang dan draft, jumlah per kategori, serta pesan masuk.",
+                "**Manajemen konten** lewat menu Proyek, Pesan, dan Pengaturan, dilengkapi login admin.",
+                "**Pengelolaan proyek dan kategori**, termasuk status tayang atau draft untuk setiap proyek.",
+                "**Unggah gambar dengan pengubahan ukuran otomatis** agar tampilan portofolio tetap rapi dan ringan.",
+                "**Formulir kontak** yang pesannya langsung tersimpan dan tampil di dashboard admin.",
+                "Menggunakan **database SQLite** dan sudah **dipublikasikan secara online**.",
+            ],
+            "en": [
+                "**Professional landing page** with a hero, About Us, Services, Featured Projects, and a Work Process section from consultation to handover.",
+                "**Project portfolio showcase** grouped by category (Home Interior and Office Interior), with a page listing all projects.",
+                "**Always-visible WhatsApp button** and a *Free Consultation* button on every page to make it easy for prospects to reach out.",
+                "**Admin dashboard** with a summary of total projects, published and draft projects, per-category counts, and incoming messages.",
+                "**Content management** through Projects, Messages, and Settings menus, with admin login.",
+                "**Project and category management**, including a published or draft status for each project.",
+                "**Image upload with automatic resizing** to keep the portfolio looking neat and loading fast.",
+                "**Contact form** whose messages are saved and shown in the admin dashboard.",
+                "Uses an **SQLite database** and is **deployed online**.",
+            ],
+        },
+        "tech": ["Python", "Flask", "PostgreSQL", "HTML/CSS", "JavaScript"],
+        "images": [
+            {"src": "astudio-0.jpg", "caption": {"id": "Preview Website", "en": "Mockup of A STUDIO landing page"}},
+            {"src": "astudio-1.jpg", "caption": {"id": "Halaman utama A STUDIO", "en": "A STUDIO landing page"}},
+            {"src": "astudio-3.jpg", "caption": {"id": "Layanan yang ditawarkan", "en": "Services offered"}},
+            {"src": "astudio-4.jpg", "caption": {"id": "Proyek pilihan", "en": "Featured projects"}},
+            {"src": "astudio-5.jpg", "caption": {"id": "Proses kerja", "en": "Work process"}},
+            {"src": "astudio-6.jpg", "caption": {"id": "Dashboard admin", "en": "Admin dashboard"}},
+        ],
+        "github": "",
+        "demo": "https://website-a-studio.onrender.com",
     },
 ]
 
